@@ -3,6 +3,7 @@ Jpeg image fingerprinting in my fav toy language...
 
 ## Usage examples:
 `go run main.go types.go huffman.go q_tables.go idct.go black.jpeg black_2.jpeg` or <br>
+<br>
 `go build main.go types.go huffman.go q_tables.go idct.go black.jpeg black_2.jpeg` then <br>
 `main.exe black.jpeg black_2.jpeg`
 
