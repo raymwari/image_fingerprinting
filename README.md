@@ -2,10 +2,7 @@
 Jpeg image fingerprinting in my fav toy language...
 
 ## Usage examples:
-`go run main.go types.go huffman.go q_tables.go idct.go black.jpeg black_2.jpeg` or <br>
-<br>
-`go build main.go types.go huffman.go q_tables.go idct.go black.jpeg black_2.jpeg` then <br>
-`main.exe black.jpeg black_2.jpeg`
+`go run main.go types.go huffman.go q_tables.go idct.go black.jpeg black_2.jpeg` 
 
 ## Resources:
 https://forensics.map-base.info/report_1/index_en.shtml#:~:text=JPG%20images%20always%20start%20with,using%20byte%20code%20%22FFD9%22. <br>
