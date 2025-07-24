@@ -1,5 +1,5 @@
 # image_fingerprinting
-Image (.jpeg) fingerprinting in my fav toy language...
+Jpeg image fingerprinting in my fav toy language...
 
 ## Usage examples:
 `go run main.go types.go huffman.go q_tables.go idct.go black.jpeg black_2.jpeg` or <br>
