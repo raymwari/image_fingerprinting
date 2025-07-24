@@ -18,7 +18,7 @@ Baseline encoding. <br>
 Standard table definations. <br>
 
 ## Processing: (view src)
-1. Decode .jpeg(s). <br>
+1. Decode jpeg(s). <br>
 2. Keep low frequency components. (luminance) <br>
 3. Generate hash. <br>
 4. Compare.
