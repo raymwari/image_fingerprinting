@@ -18,7 +18,7 @@ Baseline encoding. <br>
 Standard table definations. <br>
 
 ## Processing: (view src)
-1. Decode jpeg. <br>
+1. Decode .jpeg(s). <br>
 2. Keep low frequency components. (luminance) <br>
 3. Generate hash. <br>
 4. Compare.
@@ -28,7 +28,8 @@ Standard table definations. <br>
 2. Implement a similarity score. (hamming distance) <br>
 3. Better comments. <br>
 4. Clean code. <br>
+5. Fix code alignment issues.
 
 ## Important:
-Code locked for the jpeg image format. <br>
+Code locked for the `.jpeg` image format. <br>
 
