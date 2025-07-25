@@ -1,8 +1,11 @@
 # image_fingerprinting
-Jpeg image decoding & fingerprinting
+Jpeg image decoding, fingerprinting & perceptual hashing
 
 ## Usage examples:
 `go run main.go types.go huffman.go q_tables.go idct.go black.jpeg black_2.jpeg` 
+
+# Demo:
+<img width="1366" height="181" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/f5a01fc2-01e1-4f22-88ff-a6bc0d6c1bab" />
 
 ## Resources:
 https://shorturl.at/onWSx <br>
