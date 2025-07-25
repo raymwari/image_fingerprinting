@@ -10,22 +10,22 @@ Jpeg image decoding, fingerprinting & perceptual hashing
 ## Resources:
 https://shorturl.at/onWSx <br>
 https://stackoverflow.com/questions/37217640/what-are-the-last-2-bytes-in-the-start-of-scan-of-a-jpeg-jfif-image <br>
-https://github.com/shomali11/util/blob/master/xhashes/xhashes.go <br>
 https://www.ece.ucf.edu/~mingjie/EEL4783_2012/PA2.pdf <br>
-and more...
+and many more...
 
 ## Assumptions:
-`4:2:0` chroma subsampling. <br>
-8 bit quantization. <br>
-Baseline encoding. <br>
-Standard table definations. <br>
+`4:2:0` chroma subsampling ...<br>
+`8 bit` quantization ... <br>
+Baseline encoding as opposed to Progressive, Extended, Custom etc ... <br>
+Standard table definations ... <br>
+That the image is a jpeg ... <br>
 
 ## Processing: (view src)
-Decode image (huffman encoding through to idct), keep low frequency components of the image (`y` component: `luminance`) effectively turning the image to a gray scale, generate a hash from this array and generate a similarity score based on hamming distance
+Decode image (huffman encoding through to idct), keep low frequency components of the image (`y` component: `luminance`) effectively turning the image to a gray scale, generate a hash from this array and generate a similarity score based on hamming distance as documented in `main.go`
 
 ## Next steps:
-Reducing assumptions, unlocking for a wider array of encoding and quantization techniques 16 bit (although rare), better commenting, and fixing the code alignment issues
+Reducing assumptions, unlocking for a wider array of encoding and quantization techniques: `16 bit` (although rare), and better code documenting
 
 ## Important:
-Similarity is based on features and not colour (considering we are discarding the chrominance components), and code is locked for the `jpeg` image format (no... changing the file extension doesn't make it a jpeg) <br>
+Similarity is based on features like texture as opposed to colour schemes (considering we are discarding the chrominance components: `cb` `cr`), and the code is format locked for the `jpeg` image format (view jpeg specs)
 
