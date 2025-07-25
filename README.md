@@ -21,10 +21,10 @@ Baseline encoding. <br>
 Standard table definations. <br>
 
 ## Processing: (view src)
-Decode image (huffman encoding through to idct), keep low frequency components of the image (`y` component: `luminance`) effectively turning the image to a gray scale, generate a hash from this array and compare the hashes
+Decode image (huffman encoding through to idct), keep low frequency components of the image (`y` component: `luminance`) effectively turning the image to a gray scale, generate a hash from this array and generate a similarity score based on hamming distance
 
 ## Next steps:
-Reducing assumptions, unlocking for a wider array of encoding and quantization techniques 16 bit (although rare), implementing a similarity score, better commenting, and fixing the code alignment issues
+Reducing assumptions, unlocking for a wider array of encoding and quantization techniques 16 bit (although rare), better commenting, and fixing the code alignment issues
 
 ## Important:
 Code locked for the `jpeg` image format (and no, changing the file extension doesn't make it a jpeg) <br>
