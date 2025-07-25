@@ -27,5 +27,6 @@ Decode image (huffman encoding through to idct), keep low frequency components o
 Reducing assumptions, unlocking for a wider array of encoding and quantization techniques 16 bit (although rare), better commenting, and fixing the code alignment issues
 
 ## Important:
+Similarity is based on features and not colour (considering we are discarding the chrominance components) <br>
 Code locked for the `jpeg` image format (and no, changing the file extension doesn't make it a jpeg) <br>
 
